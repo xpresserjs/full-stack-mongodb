@@ -18,7 +18,9 @@ repl.setXpresserProvider(() => {
  */
 repl.beforeStart(($) => {
     // Add Example Context to repl
-    repl.addContext("example", () => "Example content, modify in repl file.");
+    repl.addContextFromFolder($.path.backend('models'), null, null, context => {
+        return context.default ? context.default : context;
+    })
 });
 
 /**

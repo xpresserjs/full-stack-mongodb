@@ -4,10 +4,11 @@
 
 Full Stack App. Includes a few features that is used in most of the apps.
 
-- Env
+- Env using [@xpresser/env](https://npmjs.com/package/@xpresser/env)
+- MongoDB ready using [xpress-mongo](https://npmjs.com/package/xpress-mongo)
 - use.json
 - Custom Request Engine.
-- Repl Ready
+- Repl Ready (linked to db)
 - Prettier (Development)
 
 ### Use
