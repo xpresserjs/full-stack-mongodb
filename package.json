@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Xpresser Basic Full Stack App with MongoDb",
   "main": "main.ts",
-  "repository": "https://github.com/xpresserjs/full-stack.git",
+  "repository": "https://github.com/xpresserjs/full-stack-mongodb.git",
   "author": "xpresserjs",
   "license": "MIT",
   "private": false,
