@@ -11,7 +11,6 @@ class MyRequestEngine extends $.extendedRequestEngine() {
      * `notFound` should now be accessible on `http` object
      */
     notFound() {
-        console.trace(`A 404 error just occurred!`);
         return this.status(404).send("Not Found");
     }
 }
